@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Handjet, serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+#subTitle
+{
+    font-family: 'Handjet', cursive;
+    font-size:25px;
+}
+
+#header {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    background-color: aquamarine;
+}
+#Center-Header {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    font-size: 45px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#center {
+    width: 50%;
+    padding: 10px;
+}
+
+.sidebar {
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+#center {
+    border-style: inset;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 40px;
+}
+
+.marquee {
+    display: table-header-group;
+    padding-left: 100%;
+    animation: marquee 7.5s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
