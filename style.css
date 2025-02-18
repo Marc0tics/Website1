@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 html, body {
     height: 100%;
@@ -7,6 +7,8 @@ html, body {
     font-family: Handjet, serif;
     font-weight: bold;
     font-size: 25px;
+    color: white;
+
 }
 
 body {
@@ -18,13 +20,14 @@ body {
 {
     font-family: 'Handjet', cursive;
     font-size:25px;
+
 }
 
 #header {
     display: flex;
     padding: 5px;
     gap: 5px;
-    background-color: darkkhaki;
+    background-color: linear-gradient(black, white);
 }
 #Center-Header {
     display: flex;
@@ -51,7 +54,7 @@ body {
     border-style: inset;
     border-width: 3px;
     border-radius: 10px;
-    border-color: black;
+    border-color: white;
     margin: 10px;
     box-sizing: border-box;
     width: 25%;
@@ -61,7 +64,7 @@ body {
     border-style: inset;
     border-width: 3px;
     border-radius: 10px;
-    border-color: black;
+    border-color: white;
     margin: 10px;
     box-sizing: border-box;
 }
@@ -81,10 +84,13 @@ body {
 }
 
 #grad {
-    background-image: linear-gradient(grey, white);
+    background-image: linear-gradient(black, white);
 }
 
 #apiImplement
 {
 
+}
+a {
+    color: hotpink;
 }
